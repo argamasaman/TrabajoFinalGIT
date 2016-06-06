@@ -151,6 +151,7 @@ public class PanelCursoAlta extends javax.swing.JPanel {
         if(txtID.getText().equals("") || txtTitulo.getText().equals(""))
             return true;
         return false;
+        
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
