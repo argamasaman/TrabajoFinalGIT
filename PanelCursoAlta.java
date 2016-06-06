@@ -125,7 +125,7 @@ public class PanelCursoAlta extends javax.swing.JPanel {
         }
         try{
             Curso c = new Curso();
-            c.setId(Integer.valueOf(txtID.getText()));
+            c.setId(Integer.valueOf(txtID.getText()));//mamnananananan//
             c.setTitulo(txtTitulo.getText());
             if(!txtHoras.getText().equals(""))
                 c.setHoras(Double.valueOf(txtHoras.getText()));
